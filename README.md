@@ -6,8 +6,9 @@ In this competition, Kaggle is challenging us to build a model that predicts the
   
     
 In this work, what I did is :  
-
-**Feature Processing**      
+  
+  
+***Feature Processing***      
   
 1.EDA ploration  
 2.加入Network feature,利用Networkx建立network, 找出不同地區(cluster)間的shortest weight path來幫助預估trip duration  
@@ -16,7 +17,8 @@ In this work, what I did is :
 4.Group each trip to find the average speed, 試著去找出不同trip間的關聯  
 5.去除outliers  
   
-**Model**    
+  
+***Model***    
   
 Choose to use xgboost and uterlize gridsearch and crossvalidation to choose the best parameter.  
   
